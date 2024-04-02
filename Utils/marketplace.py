@@ -100,7 +100,7 @@ def writeToExcel(data, header=None):
         
         # Write the data rows
         writer.writerows(data)
-locations = ['vanier-south',
+locations = [
              'vanier-north',
              'beacon-hill-south-cardinal-heights',
              'ledbury-heron-gate-ridgemont-elmwood',
@@ -128,7 +128,35 @@ locations = ['vanier-south',
              'emerald-woods-sawmill-creek'
              'hawthorne-meadows-sheffield-glen',
              'ottawa-south',
-             'hunt-club-east-western-community'
+             'hunt-club-east-western-community',
+             'iris',
+             'westboro',
+             'kanata-lakes-marchwood-lakeside-morgans-grant-kanata-north-business-park',
+             'hunt-club-woods-quintarra-revelstoke',
+             'lindenlea-new-edinburgh',
+             'lowertown',
+             'sandy-hill-ottawa-east',
+             'crystal-bay-lakeview-park',
+             'east-industrial',
+             'elmvale-eastway-riverview-riverview-park-west',
+             'rockcliffe-manor-park',
+             'byward-market',
+             'qualicum-redwood-park',
+             'riverside-park',
+             'playfair-park-lynda-park-guildwood-estates',
+             'overbrook-mcarthur',
+             'vanier-south',
+             'trend-arlington'
+             
+             
+             
+             
+             
+             
+             
+             
+             
+             
              
              
              
