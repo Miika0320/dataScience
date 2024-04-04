@@ -74,9 +74,9 @@ Group by l.neighbourhood, year, month
 order by l.neighbourhood
 
 -- Roll up and dice:Hawthorne Meadows and its safety score for 2018
-Select l.neighbourhood,avg(f."SafetyScore"), Extract(year from f."date") as year, f."Avg_Rent"
+Select l.neighbourhood,avg(f."SafetyScore"), Extract(year from f."date") as year
 from "Fact" f
 join "Location" l on l."locationId" = f."locationId"
 where Extract(year from f."date") = 2018 and f."locationId" = 35
-Group by l.neighbourhood, year, f."Avg_Rent"
+Group by l.neighbourhood, year
 order by l.neighbourhood
