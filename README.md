@@ -1,4 +1,4 @@
-![download-compresskaru com](https://github.com/Miika0320/dataScience/assets/46465622/a697246c-fb08-49ab-b1bf-efe70986add6)
+![Safeimagekit-resized-img](https://github.com/Miika0320/dataScience/assets/46465622/03cb1cd2-483e-4533-b3d0-5e0eff247306)
 # SafeHouse
 
 
