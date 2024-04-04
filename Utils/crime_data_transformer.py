@@ -1,7 +1,7 @@
 import pandas as pd
 from severity_score import add_severity_level_and_crimeID
 
-input_csv_path = '../Data/Criminal_Offences.csv'
+input_csv_path = '../Data/Criminal_Offences_raw.csv'
 output_csv_path = '../Data/Criminal_Offences_Cleaned.csv'
 
 columns_to_remove = ['FID', 'ReportDate', 'Year', 'ReportTime', 'Occur_Time', 'OffSummary', 'Weekday', 'Sector', 'Division', 'CensusTra']
