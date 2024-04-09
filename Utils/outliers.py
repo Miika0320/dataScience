@@ -12,7 +12,7 @@ scaler = StandardScaler()
 scaled_data = scaler.fit_transform(df[numeric_columns])
 
 # Fit the one-class SVM model
-svm_model = OneClassSVM(nu=0.01)  # Adjust nu parameter as needed
+svm_model = OneClassSVM(nu=0.05)  # Adjust nu parameter as needed
 svm_model.fit(scaled_data)
 
 # Predict outliers
@@ -25,6 +25,4 @@ outliers = df[outlier_prediction == -1]
 print("Outliers:")
 print(outliers)
 
-file = open('Outliers.txt', 'a')
-file.write(outliers)
-file.close()
+outliers.to_csv("outliers.csv", index = False)
